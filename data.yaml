@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['Carton', 'Plastic_Scrap', 'Plastic_Spool', 'polythene_scrap', 'steel_scrap', 'wooden_scrap']
+
+roboflow:
+  workspace: purview
+  project: smart-factory-ejbih
+  version: 3
+  license: Private
+  url: https://app.roboflow.com/purview/smart-factory-ejbih/3
